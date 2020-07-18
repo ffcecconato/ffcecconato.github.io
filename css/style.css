@@ -1,0 +1,290 @@
+
+@font-face {
+    font-family: rround;
+    src: url(../fonts/round.otf);
+}
+
+@font-face {
+    font-family: helveticann;
+    src: url(../fonts/helveticaneue.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    /* The following 7 lines has been applied to remove the blue highlight mark when clicking to the anchor on navigation*/
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#about-side h2, #work-side h2, #contact-side h2 {
+    color: #3a3a3a;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: .2rem;
+    line-height: .3em;
+
+}
+
+header h1 a {
+    font-family: rround;
+    letter-spacing: .2em;
+    margin-left: 2vw;
+    font-size: 1.2rem;
+    line-height: 3.5;
+}
+
+.img-container {
+    background-image: url("../images/dog.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 98vw;
+}
+
+#globe-icon {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu-item, .menu-item2 {
+    display: inline-block;
+    margin: 0 3vw;
+    line-height: 2;
+    
+}
+
+nav {
+    float: right;
+    margin-top: -78px;
+    
+}
+
+.nav {
+    height: 80px;
+    background: linear-gradient(rgba(0, 0, 0, 5), rgba(0, 0, 0, 0));
+}
+
+#lang-container {
+    display: none;
+    
+}
+
+header {
+    position: absolute;
+    width: 98vw;
+    margin-top: -22px;
+    
+}
+
+header a, header li {
+    color: #ffffff;
+}
+
+#abouth1 {
+    display: none;
+}
+
+
+
+#about-menu a, #contact-menu a, #work-menu a {
+    display: inline-block;
+    color: white;
+    margin: 4vh auto;
+    width: 10vw;
+    height: 1.5em;
+    background-color: black;
+    transition-property: all;
+    font-size: 1.5rem;
+    line-height: 1.4em;
+}
+
+#about-menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+#work-menu a:hover {
+    background-color: white;
+    color: black;
+
+}
+
+#contact-menu a:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#work-menu, #contact-menu, #about-menu {
+    width: 49vw;
+    display: inline-block;
+    height: 100vh;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    float: left;
+    text-align: center;
+   
+    
+}
+
+
+
+.about-menu-nav {
+    margin-top: 54vh;
+}
+
+#about-side {
+    width: 49vw;
+    display: inline-block;
+    text-align: center;
+    min-height: 100vh;
+    color: black;
+    background-color: white;
+    
+}
+
+#about-side img {
+    width: 20vw;
+    text-align: center;
+    margin-top: 6vh;
+    margin-bottom: 4vh;
+}
+
+.p-container {
+    width: 40vw;
+    margin: 8vh auto 2vh auto;
+}
+
+.active-lang {
+    text-decoration: underline overline;
+    text-underline-position: under;
+}
+
+.p-container p {
+    text-align: left;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-family: Arial, sans-serif;
+    margin: 0 2vw;
+    padding: 1vh 0;
+    color: #101010;
+}
+
+#about-menu h2, #work-menu h2, #contact-menu h2 {
+    color: white;
+    font-family: Arial, sans-serif;
+    letter-spacing: 0.2rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    margin-top: 16vh;
+}
+
+#workh1 {
+    display: none;
+}
+
+#work-side {
+    width: 49vw;
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    min-height: 100vh;
+    
+}
+
+#work-side figure img {
+    width: 43vw;
+
+}
+
+#work-side figcaption {
+    text-align: left;
+}
+
+hr {
+    width: 43vw;
+    color: black;
+    
+}
+
+figure {
+    margin-top: 10vh;
+}
+
+#first-figure {
+    margin-top: 8vh;
+}
+
+#work-side figcaption {
+    color: black;
+    letter-spacing: .2rem;
+}
+
+#contacth1 {
+    display: none;
+}
+
+#contact-side {
+    width: 49vw;
+    display: inline-block;
+    min-height: 100vh;
+}
+
+#wufoo-z1p9xtdf1an32im {
+    margin-top: 20vh;
+}
+
+footer {
+    text-align: right;
+    color: white;
+    background-color: black;
+}
+
+ .menu-item a {
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: .9rem;
+     letter-spacing: .2em;
+ }
+
+ .menu-item a:hover {
+     background-color: white;
+     color: black;
+ }
+
+ .menu-item2 a:hover {
+    background-color: white;
+    color: black;
+ }
+
+#large-lang-menu {
+    cursor: pointer;
+}
+
+ #large-lang {
+     display: none;
+     position: absolute;
+     text-align: center;
+     margin-left: -3vw;
+ }
+
+#large-lang.dropdown {
+    display: block;
+}
